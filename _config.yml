@@ -14,11 +14,13 @@ author: Rachael Uhlmann
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: " "
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Getting Started: "getstarted"    # ADD THIS LINE
+  Author's home: "http://deanattali.com"
 
 # --- Logo --- #
 
