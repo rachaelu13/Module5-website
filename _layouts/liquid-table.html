@@ -1,1 +1,61 @@
+---
+layout: default
+---
 
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      
+      <article role="main" class="blog-post">
+        {{ content }}
+      </article>
+
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Strengths</th>
+            <th>Weaknesses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Ryan Reynolds</strong></td>
+            <td>
+              <ul>
+              {% for item in page.reynolds.strengths %}
+                <li>{{ item }}</li>
+              {% endfor %}
+              </ul>
+            </td>
+            <td>
+              <ul>
+              {% for item in page.reynolds.weaknesses %}
+                <li>{{ item }}</li>
+              {% endfor %}
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Ryan Gosling</strong></td>
+            <td>
+              <ul>
+              {% for item in page.gosling.strengths %}
+                <li>{{ item }}</li>
+              {% endfor %}
+              </ul>
+            </td>
+            <td>
+              <ul>
+              {% for item in page.gosling.weaknesses %}
+                <li>{{ item }}</li>
+              {% endfor %}
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>
