@@ -1,28 +1,17 @@
----
-layout: liquid-table
-title: 'amiright?'
-reynolds:
-  strengths:
-  - good father
-  - funny
-  - dated alanis morissette
-  weaknesses: 
-  - singing
-  - green lantern movie
-  - tennis backhand 
-gosling:
-  strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
-  weaknesses: 
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
+yaml---
+layout: page
+title: Table Demo
 ---
 
-![](assets/img/ryan-v-ryan.jpg)  
+## Ryan vs Ryan Comparison
+
+| | **Strengths** | **Weaknesses** |
+|---|---|---|
+| **Ryan Reynolds** | Good father, Funny, Dated Alanis Morissette | Singing, Green Lantern movie, Tennis backhand |
+| **Ryan Gosling** | Builds houses, Is a real boy, Never dated Alanis Morissette | Mickey Mouse Club, Cries a lot, Not Ryan Reynolds |
+
+![Ryan Image](assets/img/ryan-v-ryan.jpg)
 
 ### Lorem Ipsum
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
