@@ -18,9 +18,10 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    - Getting Started: "getstarted"    
-
-  Author's home: "http://deanattali.com"
+    - Getting Started: "getstarted" 
+   Table Demo: "table-demo"
+   Author's home: "http://deanattali.com"
+    
 
 # --- Logo --- #
 
