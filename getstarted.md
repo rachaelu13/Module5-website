@@ -1,12 +1,10 @@
 
-
 ---
 
 layout: page
 title: Getting Started
 subtitle: Build your Beautiful Jekyll site
 ---
-
 
 
 # Build your website in 3 steps
