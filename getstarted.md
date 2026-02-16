@@ -1,4 +1,6 @@
-yaml---
+yaml
+
+---
 
 layout: page
 title: Getting Started
