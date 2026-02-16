@@ -20,7 +20,7 @@ Click on the __*Fork*__ button at the top right corner of this page. Forking mea
 
 </div>
 
-<div class="gs-section-01" markdown="1">
+<div class="gs-section-02" markdown="1">
 
 ### 2. Rename the repository to `YOURUSERNAME.github.io`
 
@@ -28,9 +28,9 @@ You'll see the word "repository" used a lot in GitHub - it simply means "project
 
 > Tip: If you want to use a different URL for your website, check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain)
 >
-> </div>
+</div>
 
-<div class="gs-section-01" markdown="1">
+<div class="gs-section-03" markdown="1">
  
 ### 3. Customize your website settings
 
@@ -38,7 +38,7 @@ Edit the `_config.yml` file to change any settings you want. To edit the file, f
 
 > Note: In the video above, only one setting in the `_config.yml` file is edited, but you should go through the rest of the settings as well.
 >
-> </div>
+ </div>
 
 ### 4. Congratulations! You have a website!
 
@@ -48,4 +48,20 @@ If you named your project correctly and made an edit to the config file, your we
 
 The instructions above explain how to use Beautiful Jekyll in the easiest way: by forking on GitHub. There are more [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard) that include either using GitHub Pages with remote themes, or using Ruby gems. They provide you with more control, but are only intended for advanced users.
 
-> Note: Beautiful Jekyll was primarily designed to be used as a GitHub theme, so you will not get any support if you use this theme via Ruby gems. 
+> Note: Beautiful Jekyll was primarily designed to be used as a GitHub theme, so you will not get any support if you use this theme via Ruby gems.
+>
+> <style>
+
+.gs-section-01 h3 { 
+     color: red;
+}
+
+.gs-section-02 h3 { 
+     color: blue;
+}
+
+.gs-section-03 h3 { 
+     color: green;
+}
+
+</style>
